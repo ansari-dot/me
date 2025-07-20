@@ -1,0 +1,74 @@
+/* HeroBanner.module.css */
+
+.heroBanner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 0 40px 0;
+  /*min-height: 520px; */
+  height: 85vh;
+  overflow: hidden;
+  width: 100%;
+  background-image: var(--hero-bg-img), linear-gradient(to bottom, rgba(241,241,241,0) 80%, #F1F1F1 100%);
+}
+
+.heroContent {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 64px; /* increased to move content further down */
+}
+
+.heroLogo {
+  display: block;
+  margin: 64px auto 24px auto; /* increased top margin for logo */
+  height: 90px;
+  width: auto;
+}
+
+.heroWelcome {
+  color: #15487d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.heroTitle {
+  color: #0C3C78;
+  font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.heroSubtitle {
+  color: #123E7C;
+  font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  letter-spacing: 6px;
+  margin-bottom: 40px;
+}
+
+.heroCta {
+  background: #702829;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 12px;
+  padding: 16px 48px;
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.heroCta:hover {
+  background: #8B0000;
+  color: #fff;
+} 
