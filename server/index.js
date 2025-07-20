@@ -57,7 +57,6 @@ app.get('/', (req, res) => {
   }
 });
 
-
 // ------------------------
 // Database Connection + Start Server
 // ------------------------
